@@ -1,4 +1,5 @@
 describe('Plane',function() {
+  
   var plane;  
 
   beforeEach(function() {
@@ -6,6 +7,6 @@ describe('Plane',function() {
 });
 
   it('flying when created', function() {
-    expected(plane.isFlying).toBe(true)
+    expect(plane.isFlying).toBe(true);
   });
 });
